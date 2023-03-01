@@ -28,6 +28,17 @@ entries:
     urls:
     - https://github.com/scottrigby/charts-repo-test/releases/download/alpine-0.1.1/alpine-0.1.1.tgz
     version: 0.1.1
+  capa:
+  - apiVersion: v2
+    appVersion: 0.6.9
+    created: "2023-03-01T10:50:56.862849355Z"
+    description: A Helm Chart for the cluster-api-provider-aws eks-bootstrap provider
+    digest: 68df79a993ffa156d4e905b8a3b778841f146a8abcf36f95516025e0b8f0be7d
+    name: capa
+    type: application
+    urls:
+    - https://github.com/fire-ant/capa-bootstrap/releases/download/capa-0.6.9/capa-0.6.9.tgz
+    version: 0.6.9
   capmvm:
   - apiVersion: v2
     appVersion: 0.8.0
@@ -575,4 +586,4 @@ entries:
     urls:
     - https://github.com/helm/charts-repo-actions-demo/releases/download/example-v2-0.2.2/example-v2-0.2.2.tgz
     version: 0.2.2
-generated: "2023-02-28T10:58:11.320612234Z"
+generated: "2023-03-01T10:50:56.862902255Z"
