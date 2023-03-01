@@ -1,5 +1,5 @@
 apiVersion: v2
-name: capa
+name: capa-bootstrap
 description: A Helm Chart for the cluster-api-provider-aws eks-bootstrap provider
 # A chart can be either an 'application' or a 'library' chart.
 #
