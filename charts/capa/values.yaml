@@ -1,0 +1,19 @@
+controllerManager:
+  kubeRbacProxy:
+    image:
+      repository: gcr.io/kubebuilder/kube-rbac-proxy
+      tag: v0.5.0
+  manager:
+    image:
+      repository: k8s.gcr.io/cluster-api-aws/eks-bootstrap-controller
+      tag: v0.6.9
+  replicas: 1
+kubernetesClusterDomain: cluster.local
+metricsService:
+  ports:
+  - name: https
+    port: 8443
+    targetPort: https
+  type: ClusterIP
+providerArgs:
+  machinePool: false
